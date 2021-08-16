@@ -1,0 +1,1 @@
+ALTER TABLE `services` ADD `flat_rate` BOOLEAN NULL DEFAULT '0' AFTER `charge`, ADD `flat_rate_charge` INT NOT NULL DEFAULT '0' AFTER `flat_rate`;

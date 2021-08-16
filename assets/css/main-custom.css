@@ -1,0 +1,23 @@
+.font-20{
+    font-size: 20px;
+}
+.font-18{
+    font-size: 18px;
+}
+#example1_wrapper .dataTables_filter{
+    float:right;
+}
+@media screen and (max-width: 1024px){    
+    .table-responsive {
+        width: 100%;
+        margin-bottom: 15px;
+        overflow-y: hidden;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+        border: 1px solid #ddd;
+    }
+    .table-responsive>.table>tbody>tr>td, .table-responsive>.table>tbody>tr>th,
+    .table-responsive>.table>tfoot>tr>td, .table-responsive>.table>tfoot>tr>th,
+    .table-responsive>.table>thead>tr>td, .table-responsive>.table>thead>tr>th {
+        white-space: nowrap;
+    }
+}

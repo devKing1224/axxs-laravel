@@ -1,0 +1,347 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  padding-top: 67px;
+}
+.btn-info{
+  background: #00baff;
+}
+.btn-warning{
+  background: #ff9c00;
+}
+.green{
+  color: #2cbb76;
+}
+.red{
+  color: #c00;
+}
+/* Toggle Styles */
+
+ #wrapper {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    overflow: hidden;
+}
+
+/*#wrapper.toggled-2 {
+    padding-left: 250px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}*/
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    left: 250px;
+    width: 0;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    background: #0e3c60;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+#wrapper.toggled-2 #sidebar-wrapper {
+    width: 250px;
+}
+
+#page-content-wrapper {
+    position: relative;
+    padding: 15px;
+    width: 100%;
+    overflow-x: hidden;
+}
+.xyz{
+    min-width: 360px;
+}
+#wrapper.toggled #page-content-wrapper {
+    position: relative;
+    margin-right: 0px;
+}
+.fixed-brand{
+    width: auto;
+}
+
+
+header .navbar-brand{
+  margin: 6px 15px;
+  font-size: 24px;
+  font-weight: bold;
+  height: auto;
+  padding: 0;
+}
+
+header .navbar-toggle{
+  padding: 0;
+  border: 0;
+  margin: 17px;
+  float: left;
+
+}
+header .navbar-toggle:hover, header .navbar-toggle:focus{
+  background-color: transparent !important;
+}
+header .navbar-toggle i{
+  font-size: 28px;
+  color: #fff;
+  margin-top: 3px;
+}
+header .navbar{
+  min-height: 30px;
+}
+
+header .navbar-default{
+  border-radius: 0;
+  border: 0;
+  background: #f07e37;
+}
+header .navbar-collapse{
+  float: left;
+}
+
+header .right-top-menu .logout-btn{
+  background: #1359ae;
+  padding: 21px;
+  font-size: 24px;
+  color: #fff !important;
+}
+header .right-top-menu .user-profile {
+  padding: 8px;
+}
+header .right-top-menu .user-profile .user-image{
+  float: left;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 50px;
+  height: 50px;
+}
+header .right-top-menu .user-profile .user-name{
+  display: inline-block;
+  margin: 15px;
+  color: #fff;
+}
+.rounded-corner{
+  border-radius: 230px;
+}
+
+
+label{
+  font-weight: 500;
+}
+.form-control{
+  box-shadow: none;
+  border-radius: 2px;
+}
+
+header .navbar-header .navbar-toggle.tog-btn, 
+header .navbar-header .navbar-toggle.tog-btn:focus{
+  background: #1359ae !important;
+  padding: 8px;
+  margin: 18px 15px 0 0;
+} 
+
+header .top-teader .navbar-header{
+  background: #03213b;
+  width: 250px;
+}
+
+.square-box{
+  display: table;
+  border: 1px solid #ddd;
+  padding: 25px;
+  width: 100%;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+.square-box .circle-icon-box, .square-box .icon-name-box{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.square-box .icon-name-box{
+  padding-left: 15px;
+  text-align: center;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #777;
+}
+
+.square-box .circle-icon-box{
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid #f07e37;
+  position: relative;
+}
+.square-box .circle-icon-box:before{
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  border-radius: 50%;
+  content: " ";
+  position: absolute;
+  top: -6px;
+  left: -6px;
+  right: 0;
+  border: 1px solid #f07e37;
+}
+.square-box .circle-icon-box i{
+  color: #f07e37;
+  font-size: 30px;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
+.square-box:hover{
+  background: #f7f7f7;
+  border-radius: 5px;
+  box-shadow: 0 1px 4px #ccc;
+  text-decoration: none;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+.square-box:hover .circle-icon-box i{
+  color: #0e3c60;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
+.square-box:hover .icon-name-box{
+  color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=MEDIA QUERIES=*/
+
+@media(min-width:768px) {
+    #wrapper {
+        padding-left: 250px;
+    }
+    .fixed-brand{
+        width: 250px;
+    }
+    #wrapper.toggled {
+        padding-left: 0;
+    }
+
+    #sidebar-wrapper {
+        width: 250px;
+    }
+
+    #wrapper.toggled #sidebar-wrapper {
+        width: 250px;
+    }
+    #wrapper.toggled-2 #sidebar-wrapper {
+        width: 50px;
+    }
+    #wrapper.toggled-2 #sidebar-wrapper:hover {
+        width: 250px;
+    }
+
+
+    #page-content-wrapper {
+        padding: 20px 0;
+        position: relative;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+
+    #wrapper.toggled #page-content-wrapper {
+        position: relative;
+        margin-right: 0;
+        padding-left: 250px;
+    }
+    #wrapper.toggled-2 #page-content-wrapper {
+        position: relative;
+        margin-right: 0;
+        margin-left: -200px;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+        width: auto;
+
+    }
+}
+
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 992px) {
+   
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .user-profile .user-name{
+    display: none !important;
+  }
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+  .whole-login{
+    display: block;
+  }
+  .login-box{
+    padding: 50px 20px;
+  }
+  
+  .blue-bg{
+    padding: 2%;
+    height: auto;
+  }
+  .blue-bg img{
+    width: 120px;
+  }
+  .grey-bg{
+    height: 100vh;
+  }
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+ 
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {}
+
+
+
+
